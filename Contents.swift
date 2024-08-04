@@ -134,7 +134,7 @@ let endingIndex1 = greetings.index(greetings.startIndex, offsetBy: 7)
 let ending1 = greetings[endingIndex1...]
 
 let endingIndex2 = greetings.index(greetings.endIndex, offsetBy: -1)
-let ending2 = greeting[endingIndex1..<endingIndex2]
+let ending2 = greetings[endingIndex1..<endingIndex2]
 
 //Insert A character at Index
 var stars = "******"
@@ -151,3 +151,6 @@ let stars3 = stars2.replacingOccurrences(of: "xyz", with: "ABC")
 let numString = "1 2 3 4 5 6"
 let stringToArray = numString.components(separatedBy: " ")
 let StringFromArray = stringToArray.joined(separator: ",")
+
+
+
